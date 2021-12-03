@@ -10,9 +10,7 @@ pipeline {
         registryCredential = 'docker'
     }
    
-    agent {
-        label any
-    }
+    agent any
     
     stages {
         
